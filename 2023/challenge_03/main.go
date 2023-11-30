@@ -42,7 +42,7 @@ func main() {
 			if reps < min || reps > max {
 				invalids++
 				if invalids == 42 {
-					fmt.Println("Solución al reto 2:\nsubmit " + key)
+					fmt.Println("Solución al reto 3:\nsubmit " + key)
 					break
 				}
 			}
